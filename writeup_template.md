@@ -121,9 +121,9 @@ To get to the accuracy of 96%, I trained the model with around 80 epochs. Please
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 99.64%.
-* validation set accuracy of 97.94%. 
-* test set accuracy of 96.64%.   
+* training set accuracy of 99.69%.
+* validation set accuracy of 98.03%. 
+* test set accuracy of 96.69%.   
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
@@ -200,7 +200,8 @@ Here are the results of the prediction:
 | Go straight or left | Go straight or left |
 | Traffic signals | Traffic signals |
 | Yield | Yield |
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+
+The model was able to correctly guess 19/21 traffic signs, which gives an accuracy of 90.4%. This compares favorably to the accuracy on the test set of 96.69%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
