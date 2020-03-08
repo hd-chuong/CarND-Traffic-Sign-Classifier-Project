@@ -213,3 +213,11 @@ The model was able to correctly guess 19/21 traffic signs, which gives an accura
 | Ahead only					| Ahead only (1.0)					| Straight or left (0.0) | Roundabout (0.0) | Right-of-way next intersection (0.0) | Straight or right (0.0) |
 | Bumpy road	      			| Bumpy Road (1.0)					 				| No passing (0.0) | Bicycle passing (0.0) | End of no passing (0.0)| Priority road (0.0) |
 | Priority road				    | Priority Road (1.0)      							| Roundabout (0.0) | No vehicles (0.0) | Go straight (0.0) | 50 km/h (0.0)|
+
+### Reference and acknowledgement
+
+I would like to acknowledge the following authors for providing extremely useful and detailed description about how to approach this problem.
+1. [Tracey's article](https://medium.com/@thomastracey/recognizing-traffic-signs-with-cnns-23a4ac66f7a7)
+2. [Eddie's article](https://towardsdatascience.com/recognizing-traffic-signs-with-over-98-accuracy-using-deep-learning-86737aedc2ab)
+3. [Goddard's solution](https://github.com/Goddard/udacity-traffic-sign-classifier)
+4. [Jeremy's solution](https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project)
